@@ -1,3 +1,21 @@
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+# SportSee : the sport app
+
+SportSee aims at developing a dashboard to follow all sports sessions and burn calories
+
+## Technologies
+
+- JS
+- CSS
+- React
+- Nodejs
+
+## Authors
+
+Chloé
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
