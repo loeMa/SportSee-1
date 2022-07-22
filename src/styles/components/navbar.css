@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    background-color: #020203;
+    height: 91px;
+    
+    align-items: center;
+    position: absolute;
+    min-width: 100vw;
+    z-index: 1;
+}
+
+.logo{
+    width: 178px;
+    height: 61px;
+    padding-left: 29px;
+}
