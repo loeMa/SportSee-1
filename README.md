@@ -12,6 +12,24 @@ SportSee aims at developing a dashboard to follow all sports sessions and burn c
 - React
 - Nodejs
 
+## Prerequisites
+
+- NodeJS
+- npm
+- yarn
+
+## Installation
+Back-end:
+- Fork the repository and follow the instruction on: https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard
+- Lauch on port 3000 with yarn dev
+
+Front-end:
+- Fork this repository
+- Clone it on your computer
+- The npm  install command will allow you to install the dependencies
+- The npm start command will allow you to run this application
+- Lauch on port 3001
+
 ## Authors
 
 Chloé
