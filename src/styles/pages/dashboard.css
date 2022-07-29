@@ -1,0 +1,29 @@
+.dashboard{
+    padding: 159px 90px 88px 217px;
+}
+.dashboard__intro{
+    color: black;
+    
+}
+.dashboard__intro h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.dashboard__name{
+    color: #FF0101;
+}
+.dashboard__main{
+    padding-top: 77px;
+    display: flex;
+    column-gap: 31px;
+}
+.column__sum{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.loader__container{
+    height: 100vh;
+}

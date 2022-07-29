@@ -8,6 +8,7 @@ const NavBar = () => {
         <div className='navbar'>
             <img className='logo' src={logo} alt='logo sportsee' />
             <Navigation />
+            
         </div>
     );
 };
