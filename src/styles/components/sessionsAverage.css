@@ -1,0 +1,38 @@
+.sessions{
+    height: 263px;
+    width: 100%;
+    background-color: #FF0000;
+    border-radius: 5px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+}
+.sessions__title{
+    position: absolute;
+    width: 147px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    left: 34px;
+    
+    top: 29px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+}
+.custom-tooltip-sessions{
+    background-color: white;
+    height: 25px;
+    width: 39px;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width : 1024px) {
+    .sessions{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    } 

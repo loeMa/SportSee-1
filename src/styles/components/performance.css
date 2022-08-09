@@ -1,0 +1,21 @@
+.performance{
+    height: 263px;
+    width: 100%;
+    background-color: #282D30;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.performance--text{
+    padding: 50px;
+    fill: #FFFFFF; 
+    font-size: 12px;  
+    transform: translateY(-5px);
+    font-weight: 500;
+}
+@media only screen and (max-width : 1024px) {
+    .performance{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    } 

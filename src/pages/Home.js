@@ -1,16 +1,12 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import SideBar from '../components/SideBar';
-
 import { Link } from 'react-router-dom';
 import '../styles/pages/home.css'
 
 
-
-
 const Home = () => {
     
-  
     return (
         <div>
             <NavBar />

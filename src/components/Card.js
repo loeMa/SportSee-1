@@ -3,6 +3,7 @@ import '../styles/components/card.css';
 import PropTypes from 'prop-types';
 
 const Card = ({data, shortName, title, img, color}) => {
+
     return (
         <div className='card'>
             <div style={{backgroundColor: color}} className="card__logo" >
@@ -10,7 +11,7 @@ const Card = ({data, shortName, title, img, color}) => {
             </div>
             
             <div className='card__text'>
-                <h2>{data}{shortName}</h2>
+                <h2>{data.toLocaleString('en-US')}{shortName}</h2>
                 <p>{title}</p>
             </div>
             
