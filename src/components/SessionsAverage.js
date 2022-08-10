@@ -11,6 +11,11 @@ const SessionsAverage = (data) => {
     const sessions = data.data
 
 
+    /**
+     * 
+     * @param {Number} value - change index to days
+     * @returns 
+     */
     function formatXAxis(value) {
         if(value === 1) return "L"
         if(value === 2) return "M"
@@ -23,14 +28,26 @@ const SessionsAverage = (data) => {
         return value
     }
 
+    /**
+     * 
+     * @param {Object[]} - use x points for rect
+     * @returns 
+     */
     const CustomCursor = ({points}) =>{
+        
         return ( 
         <rect x={points[0].x} y="0" width="100%" height="100%" fill="rgba(0, 0, 0, 0.1)" />
         )
     }
 
-    const CustomTooltip = ({ active, payload, label }) => {
-        
+    /**
+     * 
+     * @param {Boolean} active 
+     * @param {Object[]} payload - style and api's data
+     * @returns 
+     */
+    const CustomTooltip = ({ active, payload }) => {
+
         if (active && payload && payload.length ) {
             return (
                 <div className="custom-tooltip-sessions">

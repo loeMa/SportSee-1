@@ -12,7 +12,6 @@ import { useParams } from "react-router-dom";
  * @returns {object}
  */
 export function CallApi(url){
-    const {id} = useParams()
     const [userData, setUserData] = useState({})
     const [isUserLoading, setIsUserLoading] = useState(true)
 
@@ -23,8 +22,7 @@ export function CallApi(url){
                 await axios
                 .get(url)
                 .then((res) => {
-                    /* const mainData = res.data.USER_MAIN_DATA
-                    const findId = mainData.find((user) => user.id == id)   */
+                    
                     const {data} =  res.data
                     setUserData(UserMapper.convertToUser(data))
                     
@@ -56,7 +54,6 @@ CallApi.propTypes ={
  */
 
 export function CallActivities(url){
-    const {id} = useParams()
     const [activities, setActivities] = useState({})
     const [isActivityLoading, setIsActivityLoading] = useState(true)
     
@@ -68,8 +65,6 @@ export function CallActivities(url){
                 await axios
                 .get(url)
                 .then((res) => {
-                    /* const activityData = res.data.USER_ACTIVITY
-                    const findId = activityData.find((user) => user.userId == id)  */
                     const {data} =  res.data 
                     
                     setActivities(ActivitiesMapper.convertToActivities(data))
@@ -99,7 +94,6 @@ CallActivities.propTypes ={
  * @returns {object}
  */
 export function CallSessions(url){
-    const {id} = useParams()
     const [sessions, setSessions] = useState({})
     const [isSessionsLoading, setIsessionsLoading] = useState(true)
     
@@ -111,8 +105,7 @@ export function CallSessions(url){
                 await axios
                 .get(url)
                 .then((res) => {
-                    /* const sessionsData = res.data.USER_AVERAGE_SESSIONS
-                    const findId = sessionsData.find((user) => user.userId == id)  */
+
                     const {data} =  res.data 
                     
                     setSessions(SessionsMapper.convertToSessions(data))

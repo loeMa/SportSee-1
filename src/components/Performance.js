@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, ResponsiveContainer } from 'recharts';
+import React from 'react';
+import { PolarAngleAxis, PolarGrid, Radar, RadarChart, ResponsiveContainer } from 'recharts';
 import PropTypes from 'prop-types';
 
 import "../styles/components/performance.css"
@@ -24,20 +24,22 @@ const Performance = (data) => {
                             "6": "intensité"
                         }
 
-
-
     /**
      * 
      * @param {String} value 
      * @returns {String}
      */
-
     function formatted(value) {
         if(value ) return languageArray[value].charAt(0).toUpperCase() + languageArray[value].slice(1)
         
         return value
     }
 
+    /**
+     * 
+     * @param {Object} props - charts and api's data
+     * @returns 
+     */
     const customTick = (props) =>{
         const { textAnchor, x, y, cy, payload } = props;
 

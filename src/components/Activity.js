@@ -10,6 +10,11 @@ const Activity = (data) => {
      */
     const activitiesArray = data.data;
 
+    /**
+     * 
+     * @param {Number} value 
+     * @returns 
+     */
     function formatXAxis(value) {
         return value.charAt(value.length-1)
     }
