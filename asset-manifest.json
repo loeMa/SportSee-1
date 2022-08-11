@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SportSee/static/css/main.8b7cc965.css",
+    "main.js": "/SportSee/static/js/main.320585fa.js",
+    "static/media/logo.png": "/SportSee/static/media/logo.b8819ed659a0d11b7f9a.png",
+    "static/media/apple.svg": "/SportSee/static/media/apple.95581ba1b204199334e122af4784ab16.svg",
+    "index.html": "/SportSee/index.html",
+    "static/media/chicken.svg": "/SportSee/static/media/chicken.ffbc3b88a759c706993bb26fbd66113b.svg",
+    "static/media/cheeseburger.svg": "/SportSee/static/media/cheeseburger.18f60e0efe37e86bcac036d673f0bab0.svg",
+    "static/media/energy.svg": "/SportSee/static/media/energy.25fef86ed5860200bdf90f9cd185e1e3.svg",
+    "main.8b7cc965.css.map": "/SportSee/static/css/main.8b7cc965.css.map",
+    "main.320585fa.js.map": "/SportSee/static/js/main.320585fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b7cc965.css",
+    "static/js/main.320585fa.js"
+  ]
+}

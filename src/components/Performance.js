@@ -38,7 +38,7 @@ const Performance = (data) => {
     /**
      * 
      * @param {Object} props - charts and api's data
-     * @returns 
+     * @returns {String}
      */
     const customTick = (props) =>{
         const { textAnchor, x, y, cy, payload } = props;

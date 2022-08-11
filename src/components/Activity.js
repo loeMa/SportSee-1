@@ -13,7 +13,7 @@ const Activity = (data) => {
     /**
      * 
      * @param {Number} value 
-     * @returns 
+     * @returns {String}
      */
     function formatXAxis(value) {
         return value.charAt(value.length-1)
